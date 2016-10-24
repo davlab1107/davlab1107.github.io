@@ -30,6 +30,7 @@
 }
 .github {
     height :50px;
+
     width:50px;
     text-align: center;
 
@@ -64,6 +65,7 @@ h1 {
     text-align: center;
 }
 .dev_junior {
+    float:right;
     text-align: center;
     color:royalblue;
     font-size:60px;
