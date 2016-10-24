@@ -93,7 +93,7 @@ h1 {
 #progress_Télécoms {
     width: 100px;
     margin: auto;
-    font-size: 15px;
+4    font-size: 15px;
     padding-right: 1160px;
     font-family: fantasy;
     padding-top: 100px;
@@ -103,8 +103,7 @@ h1 {
     width: 100px;
     margin: auto;
     font-size: 15px;
-    padding-left: 20px;
-    font-family: fantasy;
+    padding-left: 20px;    font-family: fantasy;
     float: left;
     padding-top: 30px;
 }
@@ -136,7 +135,7 @@ progress{
 
 
 .div-couleur-anim {
-    width:350px;
+    width:450px;
     text-align: center;
     height:40px;
     background: #65537A;
