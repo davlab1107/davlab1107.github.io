@@ -65,12 +65,11 @@ h1 {
     text-align: center;
 }
 .dev_junior {
-    float:right;
     text-align: center;
     color:royalblue;
     font-size:60px;
     font-style: italic;
-    padding-right: 750px;
+    padding-right: 650px;
 
 
 }
