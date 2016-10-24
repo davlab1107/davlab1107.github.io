@@ -1,39 +1,43 @@
 .mypic {
-    width :120px;
-    height : 130px;
-    border-radius: 50px;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    float:right;
+width :120px;
+height : 150px;
+border-radius: 50px;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
 
 }
+.binary {
+ height : 100px;
+ float: right;
+ }
 
+figure  {
+  text-align: center;
+}
 
 .row1 {
-
-    margin-right:auto;
-    height: 200px;
-
-
-
+    margin-left:430px;
+    margin-right:250px;
+    height: 40px;
+    
+    
 }
 
 .row2 {
     margin: auto;
-
-
+    
+    
 }
 .html{
     height :60px;
     width:60px;
-
+    
 }
 .github {
     height :50px;
-
     width:50px;
     text-align: center;
-
+    
 }
 .linux {
     height :60px;
@@ -46,97 +50,89 @@
     margin-top: -10px;
 }
 .cisco {
-    height :50px;
+     height :50px;
     width:50px;
     text-align: center;
-
+     
 }
 
 #avacisIN {
     text-align: center;
     margin:auto;
-}
+    }
 
 body {
-    border: 15px ridge green;
-    border-radius: 25px;
+  border: 15px ridge green;
+  border-radius: 25px;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 .dev_junior {
-    text-align: center;
-    color:royalblue;
-    font-size:60px;
-    font-style: italic;
-    padding-right: 650px;
+  text-align: center;
+  color:royalblue;
+  font-size:60px;
+  font-style: italic;
+    
+  }
 
-
-}
-
-#progress_dev{
+  #progress_dev{
     width: 100px;
     margin: auto;
     font-size: 15px;
     padding: 1px 120px 1px 1px;
     font-family: fantasy;
-    float:left;
 
 }
-#progress_Exper{
-    width: 400px;
-    margin: auto;
-    font-size: 15px;
-    padding-left: 20px;
-    font-family: fantasy;
-    float: left;
-}
-#progress_Télécoms {
-    width: 100px;
-    margin: auto;
-4    font-size: 15px;
-    padding-right: 1160px;
-    font-family: fantasy;
-    padding-top: 100px;
-    
-}
-#progress_Réseaux {
+  #progress_Exper{
     width: 100px;
     margin: auto;
     font-size: 15px;
-    padding-left: 20px;    font-family: fantasy;
-    float: left;
-    padding-top: 30px;
-}
+    padding: 1px 120px 1px 1px;
+    font-family: fantasy;
+  }
+  #progress_Télécoms {
+    width: 100px;
+    margin-left: 490px;
+    font-size: 15px;
+    padding: 1px 120px 1px 1px;
+    font-family: fantasy;
+  }
+  #progress_Réseaux {
+    width: 100px;
+    margin-left: 500px;
+    font-size: 15px;
+    padding: 1px 120px 1px 1px;
+    font-family: fantasy;
+  }
 progress{
     display: inline-block;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+         box-sizing: border-box;
     width: 200px;
-    height: 20px;
+    height: 10px;
     padding: 1px 1px 1px 1px;
     background: #333;
-    background: -webkit-linear-gradient(#1FE567,#1FE567);
-    background:    -moz-linear-gradient(#1FE567,#1FE567);
-    background:      -o-linear-gradient(#1FE567,#1FE567);
-    background:         linear-gradient(#1FE567,#1FE567);
+    background: -webkit-linear-gradient(#2d2d2d,#444);
+    background:    -moz-linear-gradient(#2d2d2d,#444);
+    background:      -o-linear-gradient(#2d2d2d,#444);
+    background:         linear-gradient(#2d2d2d,#444);
     border: 1px solid rgba(0,0,0,.5);
     border-radius: 15px;
     box-shadow: 0 1px 0 rgba(255,255,255,.2);
-    
 
 }
 .myaddress {
-    font-style: italic;
-    font-family: verdana;
-    float :left;
-    margin:2px 4px 4px 4px;
-    height:200px;
-}
+  font-style: italic;
+  font-family: verdana;
+  float :left;
+  margin:2px 4px 4px 4px;
+  height:200px;
+  }
 
 
 .div-couleur-anim {
-    width:450px;
+    width:350px;
     text-align: center;
     height:40px;
     background: #65537A;
@@ -144,7 +140,6 @@ progress{
     color:#000;
     margin:auto;
     -moz-animation: couleur-anim 4s linear infinite;
-
 }
 @-moz-keyframes couleur-anim {
     0%  {background: #65537A; border-radius: 0;}
@@ -154,12 +149,12 @@ progress{
 }
 
 .context {
-    font-style: italic;
-    color : red;
-}
+  font-style: italic;
+  color : red;
+  }
 
 .dates {
-    color: blue;
+  color: blue;
 }
 
 .cadrage {
@@ -180,38 +175,24 @@ progress{
     height : 70px;
 }
 #cisco1 {
-    text-align: center;
-    margin-left:100px;
-
+   text-align: center;
+   margin-left:100px;
+    
 }
 
-.angular {
-    width: 70px;
-    height : 70px;
-}
 
-.php {
-    width: 70px;
-    height : 70px;
-}
-
-.java {
-    width: 70px;
-    height : 70px;
-}
 .html5 {
     width: 70px;
     height : 70px;
-
+    
 }
 .container-fluid {
     background-image: url(Images/fond-d-ecran-ordinateur-gratuit_1.jpg);
-    background-attachment: fixed;
-
+   background-attachment: fixed;
 }
 
 .exper_fond {
     background-color: whitesmoke;
 }
- 
+
 
