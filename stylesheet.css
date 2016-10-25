@@ -1,65 +1,60 @@
 .mypic {
-width :120px;
-height : 150px;
-border-radius: 50px;
--webkit-border-radius:50px;
--moz-border-radius:50px;
+  width :120px;
+  height : 150px;
+  border-radius: 50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
 
 }
-.binary {
- height : 100px;
- float: right;
- }
-
 figure  {
   text-align: center;
 }
 
 .row1 {
-    margin-left:430px;
-    margin-right:250px;
-    height: 40px;
-    
-    
+  margin-left:430px;
+  margin-right:250px;
+  height: 40px;
+
+
 }
 
 .row2 {
-    margin: auto;
-    
-    
+  margin: auto;
+
+
 }
 .html{
-    height :60px;
-    width:60px;
-    
+  height :60px;
+  width:60px;
+
 }
 .github {
-    height :10px;
-    width:10px;
-    text-align: center;
-    
+  height :10px;
+  width:10px;
+  text-align: center;
+
 }
 .linux {
-    height :60px;
-    width:60px;
+  height :60px;
+  width:60px;
 }
 .ININ {
-    height :50px;
-    width:50px;
-    text-align: center;
-    margin-top: -10px;
+  height :50px;
+  width:50px;
+  text-align: center;
+  margin-top: -10px;
 }
 .cisco {
-     height :50px;
-    width:50px;
-    text-align: center;
-     
+  height :50px;
+  width:50px;
+  text-align: center;
+
 }
 
 #avacisIN {
-    text-align: center;
-    margin:auto;
-    }
+  text-align: center;
+  margin:auto;
+}
 
 body {
   border: 15px ridge green;
@@ -73,53 +68,53 @@ h1 {
   color:royalblue;
   font-size:60px;
   font-style: italic;
-    
-  }
-
-  #progress_dev{
-    width: 100px;
-    margin: auto;
-    font-size: 15px;
-    padding: 1px 120px 1px 1px;
-    font-family: fantasy;
 
 }
-  #progress_Exper{
-    width: 100px;
-    margin: auto;
-    font-size: 15px;
-    padding: 1px 120px 1px 1px;
-    font-family: fantasy;
-  }
-  #progress_Télécoms {
-    width: 100px;
-    margin-left: 490px;
-    font-size: 15px;
-    padding: 1px 120px 1px 1px;
-    font-family: fantasy;
-  }
-  #progress_Réseaux {
-    width: 100px;
-    margin-left: 500px;
-    font-size: 15px;
-    padding: 1px 120px 1px 1px;
-    font-family: fantasy;
-  }
+
+#progress_dev{
+  width: 100px;
+  margin: auto;
+  font-size: 15px;
+  padding: 1px 120px 1px 1px;
+  font-family: fantasy;
+
+}
+#progress_Exper{
+  width: 100px;
+  margin: auto;
+  font-size: 15px;
+  padding: 1px 120px 1px 1px;
+  font-family: fantasy;
+}
+#progress_Télécoms {
+  width: 100px;
+  margin-left: 490px;
+  font-size: 15px;
+  padding: 1px 120px 1px 1px;
+  font-family: fantasy;
+}
+#progress_Réseaux {
+  width: 100px;
+  margin-left: 500px;
+  font-size: 15px;
+  padding: 1px 120px 1px 1px;
+  font-family: fantasy;
+}
 progress{
-    display: inline-block;
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-    width: 200px;
-    height: 10px;
-    padding: 1px 1px 1px 1px;
-    background: #333;
-    background: -webkit-linear-gradient(#2d2d2d,#444);
-    background:    -moz-linear-gradient(#2d2d2d,#444);
-    background:      -o-linear-gradient(#2d2d2d,#444);
-    background:         linear-gradient(#2d2d2d,#444);
-    border: 1px solid rgba(0,0,0,.5);
-    border-radius: 15px;
-    box-shadow: 0 1px 0 rgba(255,255,255,.2);
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 10px;
+  padding: 1px 1px 1px 1px;
+  background: #333;
+  background: -webkit-linear-gradient(#2d2d2d,#444);
+  background:    -moz-linear-gradient(#2d2d2d,#444);
+  background:      -o-linear-gradient(#2d2d2d,#444);
+  background:         linear-gradient(#2d2d2d,#444);
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 15px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.2);
 
 }
 .myaddress {
@@ -128,71 +123,80 @@ progress{
   float :left;
   margin:2px 4px 4px 4px;
   height:200px;
-  }
+}
 
 
 .div-couleur-anim {
-    width:350px;
-    text-align: center;
-    height:40px;
-    background: #65537A;
-    line-height: 50px;
-    color:#000;
-    margin:auto;
-    -moz-animation: couleur-anim 4s linear infinite;
+  width:450px;
+  text-align: center;
+  height:40px;
+  background: #65537A;
+  line-height: 50px;
+  color:#000;
+  margin:auto;
+  -moz-animation: couleur-anim 4s linear infinite;
 }
 @-moz-keyframes couleur-anim {
-    0%  {background: #65537A; border-radius: 0;}
-    25% {background: #729EBF; border-radius: 25px; width:300px}
-    50% {background: #F6AD1A; border-radius: 50px; width:300px}
-    75% {background: #729EBF; border-radius: 25px; width:300px}
+  0%  {background: #65537A; border-radius: 0;}
+  25% {background: #729EBF; border-radius: 25px; width:400px}
+  50% {background: #F6AD1A; border-radius: 50px; width:400px}
+  75% {background: #729EBF; border-radius: 25px; width:400px}
 }
 
 .context {
   font-style: italic;
   color : red;
-  }
+}
 
 .dates {
   color: blue;
 }
 
 .cadrage {
-    text-align: center;
+  text-align: center;
 }
 
 .avaya {
-    width: 50px;
-    height : 50px;
+  width: 50px;
+  height : 50px;
 }
 
 .github {
-    width: 70px;
-    height : 70px;
+  width: 70px;
+  height : 70px;
 }
 .linux {
-    width: 70px;
-    height : 70px;
+  width: 70px;
+  height : 70px;
 }
 #cisco1 {
-   text-align: center;
-   margin-left:100px;
-    
+  text-align: center;
+  margin-left:65px;
+
 }
-
-
 .html5 {
-    width: 70px;
-    height : 70px;
-    
+  width: 70px;
+  height : 70px;
+
 }
 .container-fluid {
-    background-image: url(Images/fond-d-ecran-ordinateur-gratuit_1.jpg);
-   background-attachment: fixed;
+  background-image: url(Images/fond-d-ecran-ordinateur-gratuit_1.jpg);
+  background-attachment: fixed;
 }
 
 .exper_fond {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
-
+.center {
+  text-align: center;
+}
+#myCarousel {
+  width: 700px;
+}
+.carousel-indicators {
+  color: black;
+}
+#comp {
+  margin-left: 15px;
+}
