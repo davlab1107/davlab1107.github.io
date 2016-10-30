@@ -127,11 +127,11 @@ progress{
 .div-couleur-anim {
   width:450px;
   text-align: center;
-  height:70px;
+  height:30px;
   background: #65537A;
   line-height: 50px;
   color:#000;
-  margin:25px,25px,30px,30px;
+  margin:auto;
   -moz-animation: couleur-anim 4s linear infinite;
 }
 @-moz-keyframes couleur-anim {
