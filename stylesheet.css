@@ -131,7 +131,7 @@ progress{
   background: #65537A;
   line-height: 50px;
   color:#000;
-  margin:auto;
+  margin:25px,25px,30px,30px;
   -moz-animation: couleur-anim 4s linear infinite;
 }
 @-moz-keyframes couleur-anim {
